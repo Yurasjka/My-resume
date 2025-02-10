@@ -1,0 +1,315 @@
+body 
+{
+background: #f6f6fa;
+padding-left: 40px;
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+font-family: "Montserrat", serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+ul, ol
+{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.wrapper 
+{
+background: #ffffff;
+display: flex;
+flex-direction: row-reverse;
+width: 1200px;
+margin: 0 auto;
+}
+
+/* Main-content */
+
+.main-content 
+{
+padding-left: 80px;
+padding-top: 88px;
+padding-right: 40px;
+padding-bottom: 80px;
+box-sizing: border-box;
+}
+
+/* Sidebar */
+
+.sidebar 
+{
+background: #E0EBFE;
+padding-top: 40px;
+padding-bottom: 40px;
+box-sizing: border-box;
+width: 370px;
+}
+
+.sidebar-content 
+{
+padding-left: 40px;
+padding-top: 40px;
+padding-right: 40px;
+box-sizing: border-box;
+}
+
+/* Contacts */
+
+.contacts-title 
+{
+color: #161D2A;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 22px;
+line-height: normal;
+margin-top: 0px;
+margin-bottom: 8px;
+}
+
+/* C: E: */
+.contacts-type 
+{
+color: #161D2A;  
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+margin-right: 8px;
+}
+
+/* +38 888 888 88 88 t.goitinskiy@gmail.com */
+.contacts-link 
+{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration-line: underline;
+color: #2979FF;
+}
+
+.contacts-item 
+{
+margin-top: 0px;
+margin-bottom: 8px;
+}
+
+/* contacts-container */
+.contacts-container 
+{
+margin-bottom: 40px;
+}
+
+/*skills-container */
+.skills-container
+{
+margin-bottom: 40px;
+}
+.skills-title
+{
+color: #161D2A;
+font-weight: 700;
+font-size: 22px;
+line-height: normal; 
+margin-top: 0px;   
+margin-bottom: 8px;
+}
+
+.skills-list
+{
+padding-left: 24px;
+color: #161D2A;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+
+/* Front-End Developer */
+.my-profession
+{
+color: #000000;    
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+
+/* Yurii Shumeiko */
+.my-name
+{
+color: #000000;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px; 
+margin-top: 0;  
+margin-bottom: 12px; 
+}
+
+/* comentar */
+.comentar
+{
+color: #595959;    
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.my-info
+{
+    margin-bottom: 40px;
+}
+
+/* Projects */
+.my-project-title
+{
+color: #000000;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+/* 1. 2. 3. */
+.my-project-list
+{
+padding-left: 16px;
+    
+}
+
+
+
+/* https://hellen.p.goit.global/ https://cryptohub.p.goit.global/ https://kidslike.p.goit.global/ */
+.my-project-item
+{
+color: #000000;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+}
+.my-project-item-link
+{
+color: #005FFF;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration-line: underline;    
+}
+
+/* [ HTML5, CSS3 ] [ JavaScript ] [ React.js, Node.js ] */
+.my-project-item-tech
+{
+color: #595959;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;    
+}
+
+/* my-project-container */
+.my-project-container
+{
+    margin-bottom: 40px;
+}
+
+/* Work Experience */
+.work-experience-title
+{
+color: #000000;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;   
+margin-top: 0; 
+margin-bottom: 8px;
+}
+
+.work-experience-company
+{
+color: #000;
+font-weight: 700;
+font-size: 16px;
+margin-top: 0;
+margin-bottom: 12px;       
+}
+.company-name
+{
+color: #6d9bf5    
+}
+
+
+/* work-experience-period*/
+.work-experience-period
+{
+color: #A8A8A8;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;    
+margin-bottom: 12px;
+}
+
+.separator
+{
+background: #000000;
+}
+
+/* work-experience-duties-list */
+.work-experience-duties-list
+{
+color: #595959;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;  
+margin-left: -20px;  
+}
+
+.work-experience-container
+{
+    margin-bottom: 0;
+
+}
+.work-experience
+{
+margin-bottom: 40px;    
+}
+
+
+/* Education */
+.education-title
+{
+color: #000000;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+margin-bottom: 08px;   
+}
+
+.education-university
+{
+color: #6D9BF5;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 08px;
+}
+.education-faculty
+{
+color: #000000;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px; 
+margin-bottom: 08px;
+}
+.education-period
+{
+clip: #A8A8A8;
+font-size: 12px;
+line-height: 15px;  
+}
+
+
+
